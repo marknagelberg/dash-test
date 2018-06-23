@@ -26,7 +26,11 @@ app.layout = html.Div(children=[
         options=options
     ),
 
-    dcc.Graph(id='mr_author_comment_graph')
+    dcc.Graph(id='mr_author_comment_graph'),
+
+    dcc.Markdown('''Created by [Mark Nagelberg](http://www.marknagelberg.com/)
+    using Dash. See the original blog post corresponding to this dashboard
+    [here](http://marknagelberg.com/digging-into-data-science-tools-using-plotlys-dash-to-build-interactive-dashboards).''')
 
     ])
 
